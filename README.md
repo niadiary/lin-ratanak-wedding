@@ -1,16 +1,6 @@
-# លិខិតអញ្ជើញមង្គលការ — លីន និង រតនៈ
+# Lin & Ratanak Wedding Invitation
 
-គេហទំព័រលិខិតអញ្ជើញមង្គលការដែលប្រើភាសាខ្មែរ និងរចនាបថក្រហមពិធីការ មាស និងបៃតងចាស់។ ពុម្ពអក្សរត្រូវបានកែទៅជា Kantumruy Pro សម្រាប់អត្ថបទ និង Noto Serif Khmer សម្រាប់ចំណងជើងខ្មែរ ដោយប្រើ Cormorant Garamond សម្រាប់អក្សរឡាតាំងបែបឆើតឆាយ។ នៅផ្នែកខាងលើមានចំណងជើង «សិរីសួស្តីអាពាហ៍ពិពាហ៍»។
+Open `index.html` in a browser or upload the files to your website host.
 
-## របៀបមើលគេហទំព័រ
-1. ទាញយក និងស្រាយឯកសារ ZIP។
-2. បើក `index.html` ក្នុង Chrome ឬកម្មវិធីរុករកផ្សេង។
-3. ពុម្ពអក្សរថ្មីទាញយកពី Google Fonts ដូច្នេះត្រូវការអ៊ីនធឺណិតដើម្បីបង្ហាញបានល្អបំផុត។
-
-## រូបភាព និងតន្ត្រី
-- រូប QR ធនាគារ៖ ដាក់រូបភាពពិតនៅ `assets/bank-qr.png`។
-- រូបថត និងតន្ត្រីអាចដាក់ក្នុងថត `assets/` ហើយកែផ្លូវឯកសារក្នុង `index.html`។
-- សូមកែព័ត៌មានទីតាំង និងឈ្មោះធនាគារឱ្យត្រឹមត្រូវ មុនពេលបោះពុម្ពផ្សាយ។
-
-## បោះពុម្ពផ្សាយ
-អាចបោះពុម្ពផ្សាយដោយប្រើ GitHub Pages ឬ Netlify ដើម្បីទទួលបានតំណដែលអាចចែករំលែកទៅភ្ញៀវបាន។ គេហទំព័រនេះមិនទាន់បានបោះពុម្ពផ្សាយជាសាធារណៈទេ។
+## Guest blessings integration
+The blessing form submits to the configured Google Form using its two prefilled field IDs, and the guestbook reads the published Google Sheets CSV response feed. The sheet must remain published for the website to retrieve messages. If the browser blocks cross-origin CSV access, the guestbook will keep its sample blessings visible; use a small server-side proxy or Apps Script endpoint to enable reliable retrieval.
