@@ -115,6 +115,7 @@
     .gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s cubic-bezier(.2,.7,.2,1),filter .5s ease;}
     .gallery figure:hover img{transform:scale(1.055);filter:saturate(1.05)}
     .gallery .placeholder{height:100%;display:grid;place-items:center;text-align:center;padding:14px;color:#8c7a63;background:linear-gradient(145deg,#eee5d7,#d9c9b3);font:400 1.2rem var(--serif)}
+    .gallery figure img{width:100%;height:100%;display:block;object-fit:cover}
     .gallery-hint{display:flex;align-items:center;justify-content:center;gap:9px;color:var(--muted);font-size:.7rem;letter-spacing:.04em;margin-top:2px}
     .gallery-hint .hint-line{width:32px;height:1px;background:var(--champagne-dark)}
     .details{background:var(--paper)}
@@ -585,7 +586,7 @@
         </div>
         <div class="story-grid">
           <div class="story-photo">
-            <div class="photo-placeholder"><div><span>A favorite photo of Lin and Ratanak</span><small>Add your photo as <code>assets/story.jpg</code></small></div></div>
+            <img src="assets/story.jpg" alt="Lin and Ratanak together" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder" style="display:none"><div><span>A favorite photo of Lin and Ratanak</span><small>Upload your photo to <code>assets/story.jpg</code></small></div></div>
           </div>
           <div class="story-text">
             <h3>And so begins our life together.</h3>
@@ -606,12 +607,12 @@
         </div>
         <div class="gallery-shell">
           <div class="gallery" aria-label="Our memories photo gallery" tabindex="0">
-            <figure><div class="placeholder">Memory 01<br><small>Add photo as assets/photo1.jpg</small></div></figure>
-            <figure><div class="placeholder">Memory 02<br><small>Add photo as assets/photo2.jpg</small></div></figure>
-            <figure><div class="placeholder">Memory 03<br><small>Add photo as assets/photo3.jpg</small></div></figure>
-            <figure><div class="placeholder">Memory 04<br><small>Add photo as assets/photo4.jpg</small></div></figure>
-            <figure><div class="placeholder">Memory 05<br><small>Add photo as assets/photo5.jpg</small></div></figure>
-            <figure><div class="placeholder">Memory 06<br><small>Add photo as assets/photo6.jpg</small></div></figure>
+            <figure><img src="assets/photo1.jpg" alt="Wedding memory 1" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 01<br><small>Upload as assets/photo1.jpg</small></div></figure>
+            <figure><img src="assets/photo2.jpg" alt="Wedding memory 2" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 02<br><small>Upload as assets/photo2.jpg</small></div></figure>
+            <figure><img src="assets/photo3.jpg" alt="Wedding memory 3" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 03<br><small>Upload as assets/photo3.jpg</small></div></figure>
+            <figure><img src="assets/photo4.jpg" alt="Wedding memory 4" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 04<br><small>Upload as assets/photo4.jpg</small></div></figure>
+            <figure><img src="assets/photo5.jpg" alt="Wedding memory 5" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 05<br><small>Upload as assets/photo5.jpg</small></div></figure>
+            <figure><img src="assets/photo6.jpg" alt="Wedding memory 6" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Memory 06<br><small>Upload as assets/photo6.jpg</small></div></figure>
           </div>
           <div class="gallery-hint"><span class="hint-line"></span><span>Swipe or scroll to explore</span><span>⟶</span><span class="hint-line"></span></div>
         </div>
