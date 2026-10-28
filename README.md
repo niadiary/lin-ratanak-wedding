@@ -1,4 +1,4 @@
-# Lin & Ratanak Wedding Invitation
+# Lin & Rotanak Wedding Invitation
 
 Open `index.html` in a browser or upload the files to your website host.
 
